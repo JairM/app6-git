@@ -7,7 +7,7 @@ $(document).ready(function (e){
 			navigator.notification.alert("Deslizo a la izquierda",function(){"Aplicacion ", "Aceptar"});
 		});
 $('#derecha').on("swiperight",function(){
-	navigator.notification.alert("¿Qué quieres hacer?",function(opt){
+	navigator.notification.confirm("¿Qué quieres hacer?",function(opt){
 		switch(opt)
 		{
 			case 1:
