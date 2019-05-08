@@ -6,7 +6,7 @@ $(document).ready(function (e){
 		$('#izquierda').on("swipeleft",function(){
 			navigator.notification.alert("Deslizo a la izquierda",function(){"Aplicacion ", "Aceptar"});
 		});
-$('#derecha').on("swiperightt",function(){
+$('#derecha').on("swiperight",function(){
 	navigator.notification.alert("¿Qué quieres hacer?",function(opt){
 		switch(opt)
 		{
